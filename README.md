@@ -2,7 +2,7 @@
 
 The Python Vehicle Simulator is a supplement to the Matlab MSS (Marine Systems Simulator) toolbox. It includes models for autonomous underwater vehicles (AUVs), unmanned surface vehicles (USVs), and ships. The vehicle models are based on the MSS vessel models located in /MSS/VESSELS/ catalogue. Each vehicle is modeled as an object in Python and the vehicle class has methods for guidance, navigation and control. The main program:
 
-    main.py  
+    pythonvehiclesimulator/main.py  
     
 is used to define multiple vehicle objects for real-time simulation. The python modules are located under the catalogues: 
 
@@ -26,6 +26,10 @@ In order to run the main program main.py the following modules must be installed
 
     numpy           https://numpy.org/install/
     matplotlib      https://matplotlib.org/stable/users/installing.html
+
+To install the project in editable mode, just run:
+
+    pip install -e .
 
 For more information about mathematical modeling of marine craft and methods for guidance, navigation and control, please consult:
 

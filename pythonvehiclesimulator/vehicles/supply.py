@@ -45,8 +45,8 @@ Author:     Thor I. Fossen
 """
 import numpy as np
 import math
-from functions.control import DPpolePlacement
-from functions.gnc import sat,ssa
+from ..functions.control import DPpolePlacement
+from ..functions.gnc import sat,ssa
 
 # Class Vehicle
 class supply:

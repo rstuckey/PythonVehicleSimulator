@@ -35,7 +35,7 @@ Author:     Thor I. Fossen
 """
 import numpy as np
 import math
-from functions.control import PIDpolePlacement
+from ..functions.control import PIDpolePlacement
 
 # Class Vehicle
 class DSRV:

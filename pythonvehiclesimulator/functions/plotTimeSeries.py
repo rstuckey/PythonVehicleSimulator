@@ -11,7 +11,7 @@ Author:     Thor I. Fossen
 import math
 import matplotlib.pyplot as plt
 import numpy as np
-from functions.gnc import ssa 
+from .gnc import ssa
 
 legendSize = 10                     # legend size
 figSize1 = [25, 13]                 # figure1 size in cm

@@ -11,8 +11,8 @@ Author:     Thor I. Fossen
 
 import numpy as np
 import math
-from functions.guidance import refModel3
-from functions.gnc import ssa, Rzyx
+from .guidance import refModel3
+from .gnc import ssa, Rzyx
 
 # SISO PID pole placement
 def PIDpolePlacement(e_int,e_x,e_v, \
