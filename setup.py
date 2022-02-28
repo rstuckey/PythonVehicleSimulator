@@ -7,5 +7,5 @@ setup(name='PythonVehicleSimulator',
       author='Thor I. Fossen',
       author_email='thor.fossen@ntnu.no',
       license='MIT',
-      packages=['pythonvehiclesimulator'],
+      packages=['pythonvehiclesimulator', 'pythonvehiclesimulator.functions', 'pythonvehiclesimulator.vehicles'],
       zip_safe=False)
